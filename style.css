@@ -1,0 +1,202 @@
+/*
+color theme: 
+pink: #FF9D8C
+orange: #FFA500
+beige: FFEA9B
+black
+
+*/
+
+
+
+body {
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin:0 auto;	
+	text-align: center;
+	text-align: clear;
+	}
+
+	
+a:link {color:#808080; text-decoration:none;}    
+a:visited {color:#808080; text-decoration: #FFA500;} 
+a:hover {color:#FFA500;}   
+a:active {color:#FFA500; text-decoration:line-through;} 
+
+
+
+nav a#current{
+	text-decoration:line-through;
+	color:#FFA500;
+}
+
+ul li{
+	list-style-type:none;
+	display:inline;
+	padding: 10px;
+	}
+	
+nav#menu{
+	color: #c0c0c0;
+	font-size: 0.75em;
+	margin-left: 240px;
+	font-family: 'Cantarell', sans-serif;
+	margin-bottom: -45px;
+	}
+
+
+article.canvas{
+	margin-bottom:-5px;
+	}
+	
+canvas#rect0 {
+	width:650px;
+	height: 1px;
+	background: #c0c0c0;
+	margin-bottom:-22px;
+	margin-left: 250px;
+
+	}
+	
+canvas#rect1 {
+	width:900px;
+	height: 2px;
+	background: #736F6E;
+	margin-bottom:-10px;
+	}
+	
+	
+canvas#rect2 {
+	width:900px;
+	height: 5px;
+	background: black;
+	}
+	
+	
+h1#h1text {
+	margin-top: 5px;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	}
+ 
+h1#logo{
+	display: block;
+	margin-left: -650px;
+	margin-bottom: -60px;
+	}
+	
+img#main {
+	width: 900px;
+	border: 1px solid #000ff;
+	
+	}
+	
+p#onMain {
+	margin-left:30px;
+	margin-top: 10px;
+	font-size: 13px;
+	color: white;
+	text-align: right;
+	}
+	
+p#onMain1 {
+	margin-left:30px;
+	margin-top: 150px;
+	font-size: 17px;
+	position: absolute;
+	color: white;
+	width: 300px;
+	}
+	
+	
+
+
+section.aboutmetext{
+	text-align:left;
+	position:clear;
+		}
+
+
+	
+p#indextext1{
+	text-align:left;
+	width: 287px;
+	font-size: 0.75em;
+	position:relative;
+	color: white;
+	background-color: black;
+
+	}
+	
+p#indextext2{
+	text-align:left;
+	width: 287px;
+	font-size: 0.75em;
+	margin-left: 307px;
+	position:relative;	
+	}
+	
+p#indextext3{
+	text-align:left;
+	width: 287px;
+	font-size: 12px;
+	margin-left: 604px;
+	position:absolute;	
+	}
+
+footer{
+	margin-top: 300px;
+	font-size: x-small;
+	position: relative;
+	}
+
+
+/* iat.html */
+	
+	
+section#photographyimg a img {
+		border: 3px solid #aaa;
+		width: 150px;
+		height: 150px;
+		opacity: 30%;
+			}
+	
+section#photographyimg a:hover img {
+		border: 3px solid #FFA500;
+		opacity: 100%;
+		}
+
+section#photographyimg{
+	padding-top: 15px;
+	width: 700px;
+	}	
+	
+
+/* video.html	 */
+
+	
+section#videos{
+	padding-top: 15px;
+	margin-left:280px;
+	width: 450px;
+	}
+	
+section.grass{
+	width: 900px;
+	}
+	
+/*
+section#ceramicthumb img{
+	border: 2px solid;
+	border-color: grey;
+	margin-top: 10px;
+	}
+*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
