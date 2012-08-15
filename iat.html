@@ -5,57 +5,76 @@
 		<link href="style.css" rel="stylesheet" />
 		<link href='http://fonts.googleapis.com/css?family=Cantarell|Quattrocento+Sans' rel='stylesheet' type='text/css'>
 		<!-- INCLUDE THE JQUERY LIBRARY FROM THE GOOGLE CODE API -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script src="examples.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="menu.js"></script>
 
 		
 
 	</head>
 
 	<body>
-		
+		<div id="wrapper">	
 		<header class="headersection">
-		<h1 id="logo">
-			<img src="images/maxine-01.png" width="250" alt="me" />
-		</h1>
+			<h1 id="logo">
+				<a href="index.html"><img src="images/maxine-01.png" width="250" alt="me" /></a>
+				</h1>
 		
-		<nav id="menu">
-			<ul>
-				<li><a href="index.html">About Me</a></li>			
-				<li><a id="current" href="iat.html">Interactive Arts + Technology</a></li>						
-				<li><a href="video.html">Video</a></li>
-				<li><a href="ceramic.html">Ceramic Arts</a></li>			
-				<li><a href="printmaking.html">Printmaking</a></li>
-				<li><a href="photography.html">Photography</a></li>
-			</ul>
-			</nav>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">About Me</a></li>			
+					<li><a id="current" href="iat.html">Interactive Arts + Technology</a></li>						
+					<li><a href="video.html">Video</a></li>
+					<li><a href="ceramic.html">Ceramic Arts</a></li>			
+					<li><a href="photography.html">Photography</a></li>
+					</ul>
+					</nav>
 		
 
-		<article class="canvas">
-			<canvas id="rect0"></canvas>	  
-			<canvas id="rect1"></canvas>
-			<canvas id="rect2"></canvas>
-		</article>	
+			<article class="canvas">
+				<canvas id="rect0"></canvas>	  
+				<canvas id="rect1"></canvas>
+				<canvas id="rect2"></canvas>
+				</article>	
 		
 		</header>
 		
+	
 		
-		<section id = "content">
-		<a href="grass.html" target="_blank"><img src="images/grass.jpg" width="900" alt="grass" /></a>
-		<img src="images/Tessella.jpg" width="900" alt="grass" />
-		<img src="images/fillin.jpg" width="900" alt="grass" />
-		<img src="images/raindrops.jpg" width="900" alt="grass" />
-		<img src="images/n1.jpg" width="900" alt="grass" />
+		<section class="iat">
+			<article id="iatcontent">
+			<span style="cursor:pointer"><img src="images/grass1.jpg" onmouseover="this.src='images/grass.jpg'" 
+onmouseout="this.src='images/grass1.jpg'" width="900" alt="grass" /></span>
+				<p id="grass">An interactive tactile interface that invites participants to touch the luminous fiber-optic grass. Different light patterns are created depending on how participants touch Grass. This explores natural <strong>touching or stroking</strong> gestures experimenting soft-circuit techniques with alternative conductive materials: conductive paints and fabrics.</p>
+			</article>
+			
+			<article id="iatcontent2">
+			<span style="cursor:pointer"><img src="images/Tessella1.jpg" onmouseover="this.src='images/Tessella.jpg'" 
+onmouseout="this.src='images/Tessella1.jpg'" width="900" alt="tessella" /></span>
+			<p id="tessella">The design of this project is to explore an interactive origami light that transforms its shape in the users hand and creates light patterns depending on the form.  It aims to create a playful, poetic interface that evokes user creativity through interaction.
+Tessella is arranged as a matrix of light and sensors on a flexible tessellated structure.</p>
+			
+			</article>
+			
+			<article id="iatcontent3">
+			<span style="cursor:pointer"><img src="images/fillin1.jpg" onmouseover="this.src='images/fillin.jpg'" 
+onmouseout="this.src='images/fillin1.jpg'" width="900" alt="fillin" /></span>
+			<p id="fillin">Fillin (Hugging Tree)  is a life-size cherry blossom tree, which when touched (or hugged) on the tree trunk, cherry blossoms will be illuminated vibrantly. Fillin (Hugging Tree) is meant to have a simplistic and natural looking physical model. The main focus of the installation is designated to be the user experience.</p>
+			</article>
+			
+			<article id="iatcontent4">
+			<span style="cursor:pointer"><img src="images/raindrops1.jpg" onmouseover="this.src='images/raindrops.jpg'" 
+onmouseout="this.src='images/raindrops1.jpg'" width="900" alt="raindrops" /></span>
+			<p id="raindrops"> This is an interactive immersive installation that consists of 50 resin raindrops, hand casted. Illuminating Raindrops create light patterns and movement patterns depending on participants movement around them. Rain Drops creates relaxed/immersive experience like being under the rain as well as playful experience touching rain drops.</p>
+			</article>
+		
 		</section>
-		
-			
-			
-			
-			
 					
 		<footer> Copyright Maxine JY Kim 2012 </footer>
+		
+		</div>
 	</body>
 
+	
 </html>	
 
 

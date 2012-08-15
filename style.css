@@ -10,19 +10,24 @@ black
 
 
 body {
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Quattrocento Sans', cursive;
 	margin:0 auto;	
-	text-align: center;
-	text-align: clear;
+	width: 100%;
 	}
-
 	
+div#wrapper{
+	margin: auto;
+	width: 900px;
+	
+}
+
+
+/* navigation CSS */
+
 a:link {color:#808080; text-decoration:none;}    
 a:visited {color:#808080; text-decoration: #FFA500;} 
 a:hover {color:#FFA500;}   
 a:active {color:#FFA500; text-decoration:line-through;} 
-
-
 
 nav a#current{
 	text-decoration:line-through;
@@ -41,8 +46,11 @@ nav#menu{
 	margin-left: 240px;
 	font-family: 'Cantarell', sans-serif;
 	margin-bottom: -45px;
+	position:relative;
 	}
 
+
+/*Header*/
 
 article.canvas{
 	margin-bottom:-5px;
@@ -54,7 +62,6 @@ canvas#rect0 {
 	background: #c0c0c0;
 	margin-bottom:-22px;
 	margin-left: 250px;
-
 	}
 	
 canvas#rect1 {
@@ -78,86 +85,88 @@ h1#h1text {
 	}
  
 h1#logo{
-	display: block;
-	margin-left: -650px;
 	margin-bottom: -60px;
 	}
 	
 img#main {
 	width: 900px;
 	border: 1px solid #000ff;
+	}
+
+
+
+/*aboutme page content*/
+
+.mainContent{
+	font-size: 0.8em;
+	margin-top: -4px;
 	
 	}
 	
-p#onMain {
-	margin-left:30px;
-	margin-top: 10px;
-	font-size: 13px;
-	color: white;
-	text-align: right;
+#content1{
+	width: 280px;
+	padding-left:10px;
+	padding-right:10px;
 	}
 	
-p#onMain1 {
-	margin-left:30px;
-	margin-top: 150px;
-	font-size: 17px;
-	position: absolute;
-	color: white;
+#content2{
+	width: 280px;
+	padding-left:10px;
+	padding-right:10px;
+	}
+	
+#content3{
+	width: 280px;
+	padding-left:10px;
+	padding-right:10px;
+	}
+	
+	
+h2{
+	margin: 0;
+	padding: 5px;
+	background: #333;
+	color: #fff;
+	width: 290px;
+}
+
+#indexcontent1{
 	width: 300px;
+	display:block;
+	position:absolute;
+	}
+
+
+#indexcontent2{
+	width: 300px;
+	margin-left: 300px;
+	display:block;
+	position:absolute;
 	}
 	
-	
-
-
-section.aboutmetext{
-	text-align:left;
-	position:clear;
-		}
-
-
-	
-p#indextext1{
-	text-align:left;
-	width: 287px;
-	font-size: 0.75em;
-	position:relative;
-	color: white;
-	background-color: black;
-
+#indexcontent3{
+	width: 300px;
+	margin-left: 600px;
+	display:block;
+	position: inherit;
 	}
-	
-p#indextext2{
-	text-align:left;
-	width: 287px;
-	font-size: 0.75em;
-	margin-left: 307px;
-	position:relative;	
-	}
-	
-p#indextext3{
-	text-align:left;
-	width: 287px;
-	font-size: 12px;
-	margin-left: 604px;
-	position:absolute;	
-	}
+
 
 footer{
-	margin-top: 300px;
+	margin-top: 50px;
 	font-size: x-small;
 	position: relative;
 	}
 
 
-/* iat.html */
-	
-	
-section#photographyimg a img {
-		border: 3px solid #aaa;
-		width: 150px;
-		height: 150px;
-		opacity: 30%;
-			}
+
+/* photography.html */
+		
+section#photographyimg img{
+		clip:rect(50px 50px 50px 50px)
+		padding:20px;
+		width:200px;
+		}
 	
 section#photographyimg a:hover img {
 		border: 3px solid #FFA500;
@@ -166,7 +175,6 @@ section#photographyimg a:hover img {
 
 section#photographyimg{
 	padding-top: 15px;
-	width: 700px;
 	}	
 	
 
@@ -183,15 +191,20 @@ section.grass{
 	width: 900px;
 	}
 	
-/*
 section#ceramicthumb img{
-	border: 2px solid;
-	border-color: grey;
-	margin-top: 10px;
+	width: 900px;
 	}
-*/
+
+/* IAT content */
+
+section.iat{
+	font-size: 0.9em;
+	}
 	
 	
+	
+
+
 	
 	
 	
